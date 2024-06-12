@@ -171,9 +171,9 @@ INNERTUBE_CLIENTS = {
         'INNERTUBE_CONTEXT': {
             'client': {
                 'clientName': 'IOS',
-                'clientVersion': '19.09.3',
-                'deviceModel': 'iPhone14,3',
-                'userAgent': 'com.google.ios.youtube/19.09.3 (iPhone14,3; U; CPU iOS 15_6 like Mac OS X)',
+                'clientVersion': '19.23.3',
+                'deviceModel': 'iPhone16,2',
+                'userAgent': 'com.google.ios.youtube/19.23.3 (iPhone16,2; U; CPU iOS 17_5 like Mac OS X)',
             },
         },
         'INNERTUBE_CONTEXT_CLIENT_NAME': 5,
@@ -183,9 +183,9 @@ INNERTUBE_CLIENTS = {
         'INNERTUBE_CONTEXT': {
             'client': {
                 'clientName': 'IOS_MESSAGES_EXTENSION',
-                'clientVersion': '19.09.3',
-                'deviceModel': 'iPhone14,3',
-                'userAgent': 'com.google.ios.youtube/19.09.3 (iPhone14,3; U; CPU iOS 15_6 like Mac OS X)',
+                'clientVersion': '19.23.3',
+                'deviceModel': 'iPhone16,2',
+                'userAgent': 'com.google.ios.youtube/19.23.3 (iPhone16,2; U; CPU iOS 17_5 like Mac OS X)',
             },
         },
         'INNERTUBE_CONTEXT_CLIENT_NAME': 66,
@@ -197,8 +197,8 @@ INNERTUBE_CLIENTS = {
             'client': {
                 'clientName': 'IOS_MUSIC',
                 'clientVersion': '6.33.3',
-                'deviceModel': 'iPhone14,3',
-                'userAgent': 'com.google.ios.youtubemusic/6.33.3 (iPhone14,3; U; CPU iOS 15_6 like Mac OS X)',
+                'deviceModel': 'iPhone16,2',
+                'userAgent': 'com.google.ios.youtubemusic/6.33.3 (iPhone16,2; U; CPU iOS 17_5 like Mac OS X)',
             },
         },
         'INNERTUBE_CONTEXT_CLIENT_NAME': 26,
@@ -209,8 +209,8 @@ INNERTUBE_CLIENTS = {
             'client': {
                 'clientName': 'IOS_CREATOR',
                 'clientVersion': '22.33.101',
-                'deviceModel': 'iPhone14,3',
-                'userAgent': 'com.google.ios.ytcreator/22.33.101 (iPhone14,3; U; CPU iOS 15_6 like Mac OS X)',
+                'deviceModel': 'iPhone16,2',
+                'userAgent': 'com.google.ios.ytcreator/22.33.101 (iPhone16,2; U; CPU iOS 17_5 like Mac OS X)',
             },
         },
         'INNERTUBE_CONTEXT_CLIENT_NAME': 15,
@@ -239,6 +239,15 @@ INNERTUBE_CLIENTS = {
             },
         },
         'INNERTUBE_CONTEXT_CLIENT_NAME': 85,
+    },
+    'tv_music': {
+        'INNERTUBE_CONTEXT': {
+            'client': {
+                'clientName': 'TVHTML5_AUDIO',
+                'clientVersion': '2.0',
+            },
+        },
+        'INNERTUBE_CONTEXT_CLIENT_NAME': 57,
     },
     # This client has pre-merged video+audio 720p/1080p streams
     'mediaconnect': {
